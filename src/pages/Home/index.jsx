@@ -1,13 +1,12 @@
 import BoxImageLink from "@molecules/BoxImageLink";
-function Home(){
+function HomePage(){
     return (
         <div>
             <h1>
                 esto es un home pedorro
                 <BoxImageLink></BoxImageLink>
-                
             </h1>
         </div>
     )
 }
-export default Home;
+export default HomePage;
