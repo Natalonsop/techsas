@@ -1,7 +1,22 @@
 import React from "react";
+import { useAuth } from "@hooks/useAuth";
+import {Navigate} from "react-router-dom";
 
-function LoginRegister(){
+function LoginPage(){
+    const { login, user } = useAuth();
 
+    if (user){
+        return <Navigate to={"/home"} />
+    }
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        const data = new FormData(event.currentTarget);
+        login({
+            email: data.get("email"),
+            password: data.get("password")
+        });
+    };
 
     return (
         <>
@@ -19,22 +34,23 @@ function LoginRegister(){
                                             <div className="center-wrap">
                                                 <div className="section text-center">
                                                     <h4 className="mb-4 pb-3">Log In</h4>
-                                                    <div className="form-group">
-                                                        <input type="email" name="logemail" className="form-style"
-                                                               placeholder="Your Email"
-                                                               id="logemail"
-                                                               autoComplete="off" />
-                                                        <i className="input-icon uil uil-at"></i>
-                                                    </div>
-                                                    <div className="form-group mt-2">
-                                                        <input type="password" name="logpass" className="form-style"
-                                                               placeholder="Your Password" id="logpass"
-                                                               autoComplete="off" />
-                                                        <i className="input-icon uil uil-lock-alt"></i>
-                                                    </div>
-                                                    <a href="#" className="btn mt-4">submit</a>
+                                                    <form onSubmit={handleSubmit}>
+                                                        <div className="form-group">
+                                                            <input type="email" name="email" className="form-style"
+                                                                   placeholder="Your Email"
+                                                                   autoComplete="off" />
+                                                            <i className="input-icon uil uil-at"></i>
+                                                        </div>
+                                                        <div className="form-group mt-2">
+                                                            <input type="password" name="password" className="form-style"
+                                                                   placeholder="Your Password"
+                                                                   autoComplete="off" />
+                                                            <i className="input-icon uil uil-lock-alt"></i>
+                                                        </div>
+                                                        <button type="submit" className="btn mt-4">submit</button>
+                                                    </form>
                                                     <p className="mb-0 mt-4 text-center">
-                                                        <a href="#0" className="link">Forgot your password?</a>
+                                                        <a href="#" className="link">Forgot your password?</a>
                                                     </p>
                                                 </div>
                                             </div>
@@ -75,4 +91,4 @@ function LoginRegister(){
         </>
     )
 }
-export default LoginRegister;
+export default LoginPage;
