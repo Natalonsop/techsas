@@ -152,10 +152,15 @@ h6 span{
 
 
 .form-group{
+    
     position: relative;
     display: block;
     margin: 0;
     padding: 0;
+}
+.form-group input{
+    border: 1px solid;
+    box-shadow: 2px 2px 1px rgb(160, 159, 159); 
 }
 .form-style {
     padding: 13px 20px;
@@ -169,7 +174,7 @@ h6 span{
     letter-spacing: 0.5px;
     outline: none;
     color: #c4c3ca;
-    background-color: #5d5d61;
+    background-color: #3a3a3d;
     border: none;
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear;
