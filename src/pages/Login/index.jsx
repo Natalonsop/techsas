@@ -1,6 +1,6 @@
 import React from "react";
 import { useAuth } from "@hooks/useAuth";
-import {Navigate} from "react-router-dom";
+import { Navigate } from "react-router-dom";
 
 function LoginPage(){
     const { login, user } = useAuth();

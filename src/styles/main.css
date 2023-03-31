@@ -1,1 +1,13 @@
-@import "@styles/pages/loginregister.css";
+/* Bootstrap initializaton */
+
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+/* Components */
+
+
+/* Pages */
+
+@import "pages/loginregister.css";
+
+
+/* Customs */

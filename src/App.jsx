@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, createBrowserRouter, createRoutesFromElements, defer } from "react-router-dom";
+import { Route, createBrowserRouter, createRoutesFromElements, defer } from "react-router-dom";
 
 import HomePage from "@pages/Home";
 import LoginPage from "@pages/Login";

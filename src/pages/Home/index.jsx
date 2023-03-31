@@ -1,10 +1,10 @@
-import BoxImageLink from "@molecules/BoxImageLink";
+import React from 'react';
+
 function HomePage(){
     return (
         <div>
             <h1>
                 esto es un home pedorro
-                <BoxImageLink></BoxImageLink>
             </h1>
         </div>
     )
