@@ -1,7 +1,8 @@
 
 import Fondo11 from "@images/Fondo11.png";
 import Mujer1 from "@images/Mujer1.png";
-
+import Mancuernas from "@images/Mancuernas.png";
+import Termito from "@images/Termito.png"
 function HomePage(){
     return (
         <>
@@ -18,7 +19,7 @@ function HomePage(){
                                     <div className="card-3d-wrapper">
                                         <div className="card-front">
                                             <div className="pricing-wrap">
-                                                <h4 className="mb-5">Kayaking</h4>
+                                                <h4 className="mb-5">Trainers</h4>
                                                 <h2 className="mb-2"><sup>$</sup>39 / 4<sup>hrs</sup></h2>
                                                 <p className="mb-4">per person</p>
                                                 <p className="mb-1"><i className="uil uil-location-pin-alt size-22"></i>
@@ -29,13 +30,13 @@ function HomePage(){
                                                     <img src={Fondo11} alt="" />
                                                 </div>
                                                 <div className="img-wrap img-1">
-                                                    <img src={Mujer1} alt="" />
+                                                    <img src={Mujer1} alt=""style={{ width: 290 }} />
                                                 </div>
                                                 <div className="img-wrap img-3">
-                                                    <img src="https://assets.codepen.io/1462889/water.png" alt="" />
+                                                    <img src={Termito} alt="" style={{ width: 50 }}/>
                                                 </div>
                                                 <div className="img-wrap img-6">
-                                                    <img src="https://assets.codepen.io/1462889/Stone.png" alt="" />
+                                                    <img src={Mancuernas} alt="" />
                                                 </div>
                                             </div>
                                         </div>

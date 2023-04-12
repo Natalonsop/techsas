@@ -90,7 +90,7 @@
     -moz-backface-visibility: hidden;
     -o-backface-visibility: hidden;
     backface-visibility: hidden;
-    box-shadow: 0 12px 35px 0 rgba(16, 39, 112,.07);
+    box-shadow: 0 12px 35px 0 rgba(21, 42, 109, 0.07);
 }
 .card-back {
     transform: rotateY(180deg);
@@ -99,6 +99,7 @@
     transform: rotateY(180deg);
     transition: transform 700ms 400ms ease-out;
 }
+
 .pricing-wrap{
     position: relative;
     padding-top: 160px;
@@ -114,6 +115,7 @@
 }
 .pricing-wrap h4{
     position: relative;
+    text-shadow: 2px 0px #54128a, 4px 2px #00000060,0px 0px #070606;
     width: 100%;
     display: block;
     text-align: center;
@@ -122,14 +124,14 @@
     letter-spacing: 3px;
     font-size: 22px;
     line-height: 1.7;
-    color: #102770;
+    color: #ffffff;
     transform: translate3d(0, 0, 35px) perspective(100px);
 }
 .pricing-wrap h4:before{
     position: absolute;
     content: '';
     z-index: -1;
-    background: linear-gradient(217deg, #d85c09, #f9f8b8);
+    background: linear-gradient(217deg, #2044e2, #d94eec8c);
     width: 70px;
     height: 70px;
     display: block;
@@ -220,7 +222,7 @@
     position: absolute;
     display: block;
     left: -160px;
-    top: -50px;
+    top: -100px;
     z-index: 5;
     width: calc(80% + 160px);
     transform: translate3d(0, 0, 45px) perspective(100px);
@@ -249,8 +251,8 @@
 .img-3{
     position: absolute;
     display: block;
-    right: -20px;
-    top: -40px;
+    right: -140px;
+    top: 10px;
     z-index: 5;
     width: calc(60% + 20px);
     transform: translate3d(0, 0, 55px) perspective(100px) scale(1);
@@ -264,6 +266,11 @@
     pointer-events: none;
     transition: transform 400ms ease, opacity 200ms 150ms ease;
 }
+.img-6 img{
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
 .img-6{
     position: absolute;
     display: block;
