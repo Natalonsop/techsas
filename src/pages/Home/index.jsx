@@ -1,9 +1,11 @@
+
+import Fondo11 from "@images/Fondo11.png";
+import Mujer1 from "@images/Mujer1.png";
+
 function HomePage(){
     return (
         <>
-            <a href="https://front.codes/" className="logo" target="_blank">
-                <img src="https://assets.codepen.io/1462889/fcb.png" alt="" />
-            </a>
+            <div className="gen Body"></div>
             <div className="section over-hide">
                 <div className="container">
                     <div className="row full-height justify-content-center">
@@ -24,10 +26,10 @@ function HomePage(){
                                                 <p className="mb-4">Drina, Serbia</p>
                                                 <a href="#0" className="link">Choose Date</a>
                                                 <div className="img-wrap img-2">
-                                                    <img src="https://assets.codepen.io/1462889/sea.png" alt="" />
+                                                    <img src={Fondo11} alt="" />
                                                 </div>
                                                 <div className="img-wrap img-1">
-                                                    <img src="https://assets.codepen.io/1462889/kayak.png" alt="" />
+                                                    <img src={Mujer1} alt="" />
                                                 </div>
                                                 <div className="img-wrap img-3">
                                                     <img src="https://assets.codepen.io/1462889/water.png" alt="" />
