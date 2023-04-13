@@ -2,6 +2,8 @@
 import Fondo11Chimba from "@images/Fondo11Chimba.png";
 import ChicaCorriendo from "@images/Chica-Corriendo.png";
 import Mancuernas from "@images/Mancuernas.png";
+import GymIso from "@images/GymIso.png";
+import Canchita from "@images/Canchita.png";
 function HomePage(){
     return (
         <>
@@ -37,24 +39,23 @@ function HomePage(){
                                         </div>
                                         <div className="card-back">
                                             <div className="pricing-wrap">
-                                                <h4 className="mb-5">Camping</h4>
-                                                <h2 className="mb-2"><sup>$</sup>29 / 8<sup>hrs</sup></h2>
-                                                <p className="mb-4">per person</p>
+                                                <h4 className="mb-5">Sites</h4>
+                                                <h2 className="mb-2"> Arrienda un lugar </h2>
                                                 <p className="mb-1"><i className="uil uil-location-pin-alt size-22"></i>
                                                 </p>
-                                                <p className="mb-4">Tara, Serbia</p>
-                                                <a href="#0" className="link">Choose Date</a>
+                                                <p className="mb-4">Escoje una cancha o gym en la ciudad que prefieras</p>
+                                                <a href="#0" className="link">Elige un lugar</a>
                                                 <div className="img-wrap img-2">
                                                     <img src="https://assets.codepen.io/1462889/grass.png" alt="" />
                                                 </div>
                                                 <div className="img-wrap img-4">
-                                                    <img src="https://assets.codepen.io/1462889/camp.png" alt="" />
+                                                    <img src={Canchita} alt="" />
                                                 </div>
                                                 <div className="img-wrap img-5">
                                                     <img src="https://assets.codepen.io/1462889/Ivy.png" alt="" />
                                                 </div>
                                                 <div className="img-wrap img-7">
-                                                    <img src="https://assets.codepen.io/1462889/IvyRock.png" alt="" />
+                                                    <img src={GymIso} alt="" />
                                                 </div>
                                             </div>
                                         </div>
