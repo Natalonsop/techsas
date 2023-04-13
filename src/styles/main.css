@@ -3,11 +3,12 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 /* Components */
-
+@import "fonts.css";
 
 /* Pages */
 @import "@styles/pages/login.css";
 @import "@styles/pages/home.css";
+
 
 
 /* Customs */

@@ -1,8 +1,7 @@
 
-import Fondo11 from "@images/Fondo11.png";
-import Mujer1 from "@images/Mujer1.png";
+import Fondo11Chimba from "@images/Fondo11Chimba.png";
+import ChicaCorriendo from "@images/Chica-Corriendo.png";
 import Mancuernas from "@images/Mancuernas.png";
-import Termito from "@images/Termito.png"
 function HomePage(){
     return (
         <>
@@ -13,28 +12,24 @@ function HomePage(){
                         <div className="col-12 text-center align-self-center py-5">
                             <div className="section text-center py-5 py-md-0">
                                 <input className="pricing" type="checkbox" id="pricing" name="pricing"/>
-                                <label htmlFor="pricing"><span className="block-diff">kayaking<span
-                                    className="float-right">camping</span></span></label>
+                                <label htmlFor="pricing"><span className="block-diff">Trainers<span
+                                    className="float-end">Places</span></span></label>
                                 <div className="card-3d-wrap mx-auto">
                                     <div className="card-3d-wrapper">
                                         <div className="card-front">
                                             <div className="pricing-wrap">
                                                 <h4 className="mb-5">Trainers</h4>
-                                                <h2 className="mb-2"><sup>$</sup>39 / 4<sup>hrs</sup></h2>
-                                                <p className="mb-4">per person</p>
-                                                <p className="mb-1"><i className="uil uil-location-pin-alt size-22"></i>
-                                                </p>
-                                                <p className="mb-4">Drina, Serbia</p>
-                                                <a href="#0" className="link">Choose Date</a>
+                                                <h2 className="mb-2"> Contrata tu entrenador</h2>
+                                                <p className="mb-4">Desde 40.000 COP por persona</p>
+                                                
+                                                
+                                                <a href="#0" className="link">Elige tu entrenador</a>
                                                 <div className="img-wrap img-2">
-                                                    <img src={Fondo11} alt="" />
+                                                    <img src={Fondo11Chimba} alt="" />
                                                 </div>
-                                                <div className="img-wrap img-1">
-                                                    <img src={Mujer1} alt=""style={{ width: 290 }} />
-                                                </div>
-                                                <div className="img-wrap img-3">
-                                                    <img src={Termito} alt="" style={{ width: 50 }}/>
-                                                </div>
+                                                <div className=" img-1">
+                                                    <img src={ChicaCorriendo} alt=""style={{ width: 290 }} />
+                                                </div>       
                                                 <div className="img-wrap img-6">
                                                     <img src={Mancuernas} alt="" />
                                                 </div>
