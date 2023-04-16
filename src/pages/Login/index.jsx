@@ -2,7 +2,9 @@ import React from "react";
 import { useAuth } from "@hooks/useAuth";
 import { Navigate } from "react-router-dom";
 
-function LoginPage(){
+import '@styles/pages/_login.scss';
+
+export default function LoginPage(){
     const { login, user } = useAuth();
 
     if (user){
@@ -90,4 +92,3 @@ function LoginPage(){
         </>
     )
 }
-export default LoginPage;

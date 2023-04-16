@@ -1,10 +1,12 @@
-
+import React from "react";
 import Fondo11Chimba from "@images/Fondo11Chimba.png";
 import ChicaCorriendo from "@images/Chica-Corriendo.png";
 import Mancuernas from "@images/Mancuernas.png";
 import GymIso from "@images/GymIso.png";
 import Canchita from "@images/Canchita.png";
-function HomePage(){
+
+
+export default function HomePage(){
     return (
         <>
             <div className="gen Body"></div>
@@ -69,6 +71,3 @@ function HomePage(){
         </>
     )
 }
-
-import React from 'react';
-export default HomePage;

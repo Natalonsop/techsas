@@ -1,5 +1,8 @@
+import React from "react";
 
-function BookingPage (){
+import '@styles/pages/_booking.scss';
+
+export default function BookingPage (){
     return(
         <>
             <div className="app-container">

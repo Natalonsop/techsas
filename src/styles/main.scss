@@ -1,13 +1,13 @@
 /* Bootstrap initializaton */
-
-@import "bootstrap/dist/css/bootstrap.min.css";
+@import "bootstrap/scss/bootstrap";
+@import "fonts";
 
 /* Components */
-@import "fonts.css";
+
 
 /* Pages */
-@import "@styles/pages/login.css";
-@import "@styles/pages/home.css";
+@import "pages/login";
+@import "pages/home";
 
 
 
