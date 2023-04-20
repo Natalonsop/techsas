@@ -3,6 +3,15 @@ import React from "react";
 import '@styles/pages/_booking.scss';
 
 export default function BookingPage (){
+    function openModal(){
+        let modal= document.querySelector('#modal-window');
+        modal.classList.add("showModal");
+    }
+
+    function closeModal(){
+        let m= document.querySelector('#modal-window');
+      m.classList.remove("showModal");
+    }
     return(
         <>
             <div className="app-container">
@@ -110,7 +119,7 @@ export default function BookingPage (){
                 <section className="app-main">
                   <div className="app-main-left cards-area">
                     <div className="card-wrapper main-card">
-                      <a className="card cardItemjs"  onclick="openModal()">
+                      <a className="card cardItemjs" onClick={openModal} >
                         <div className="card-image-wrapper">
                           <img src="https://source.unsplash.com/featured/1200x900/?sculpture,hotel" alt="Hotel"/>
                         </div>
@@ -489,7 +498,7 @@ export default function BookingPage (){
                     </div>
                   </div>
                 </div>
-                <button className="btn btn-close" onclick="closeM()">
+                <button className="btn btn-close" onClick={closeModal}>
                   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
                 </button>
               </div>    
