@@ -1,5 +1,5 @@
 :root {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Nonito', sans-serif;
   --app-bg: #fff;
   --modal-before: rgba(215,215,215,.5);
   --main-font-color: #000;
@@ -67,15 +67,6 @@
   width: 0;
 }
 
-body, html {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: var(--app-bg);
-  transition: .2s;
-}
 
 a {
   text-decoration: none;
@@ -366,7 +357,7 @@ section.app-actions {
   background-color: var(--cards-area-bg);
   padding: 24px;
   height: 100%;
-  overflow-y: auto;
+  overflow-y: scroll;
   border-radius: 20px;
 }
 
