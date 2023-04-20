@@ -1,13 +1,15 @@
 import React, { Suspense } from "react";
 import { useLoaderData, useOutlet, Await } from "react-router-dom";
 import { AuthProvider } from "@hooks/useAuth";
+import '@styles/pages/_authlayout.scss';
 
 export const AuthLayout = () => {
     const outlet = useOutlet();
     const { userPromise } = useLoaderData();
 
     const Loader = () => (
-        <div className="spinner-border" role="status">
+        <div className="custom-loader"
+             role="status">
             <span className="sr-only">Loading...</span>
         </div>
     );
