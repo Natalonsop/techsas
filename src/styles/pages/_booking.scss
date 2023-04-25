@@ -356,8 +356,8 @@ section.app-actions {
 .cards-area {
   background-color: var(--cards-area-bg);
   padding: 24px;
-  height: 100%;
-  overflow-y: scroll;
+  height: 50vh;
+  overflow-y: auto;
   border-radius: 20px;
 }
 
