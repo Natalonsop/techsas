@@ -68,7 +68,7 @@ export default function BookingPage (){
                                     <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
                                   </svg>
                                 </div>
-                              <span className="filter-text">Adults - 2</span>
+                              <span className="filter-text">Adultos - 2</span>
                               </button>
                         </div>
                     </div>
@@ -81,11 +81,11 @@ export default function BookingPage (){
                           <img src="https://source.unsplash.com/featured/1200x900/?sculpture,hotel" alt="Hotel"/>
                         </div>
                         <div className="card-info">
-                          <div className="card-text big cardText-js">The Grand Budapest Hotel</div>
-                            <div className="card-text small">Stockton Street</div>
+                          <div className="card-text big cardText-js">Daniela Salgado</div>
+                            <div className="card-text small">Bogota-Engativa</div>
                               <div className="card-text small">
-                                Starts from: 
-                                <span className="card-price"> $1000</span>
+                                Desde: 
+                                <span className="card-price"> 40.000 COP /hora</span>
                               </div>
                         </div>
                       </a>
@@ -96,11 +96,11 @@ export default function BookingPage (){
                           <img src="https://source.unsplash.com/featured/1200x900/?architecture,hotel" alt="Hotel"/>
                         </div>
                           <div className="card-info">
-                            <div className="card-text big cardText-js">The Grand Canyon Hotel</div>
-                            <div className="card-text small">Stockton Street</div>
+                            <div className="card-text big cardText-js">Sergio Rodriguez</div>
+                            <div className="card-text small">Boyaca-Corrales</div>
                             <div className="card-text small">
-                              Starts from: 
-                              <span className="card-price"> $1500</span>
+                              Desde 
+                              <span className="card-price"> 45.000 COP/ Hora</span>
                             </div>
                           </div>
                       </a>
@@ -111,11 +111,11 @@ export default function BookingPage (){
                           <img src="https://source.unsplash.com/featured/1200x900/?hotel-room,hotel" alt="Hotel"/>
                         </div>
                         <div className="card-info">
-                          <div className="card-text big cardText-js">The Beakman Spa Hotel</div>
-                            <div className="card-text small">Stockton Street</div>
+                          <div className="card-text big cardText-js"> Helena Martinez</div>
+                            <div className="card-text small">Barranquilla</div>
                           <div className="card-text small">
-                              Starts from: 
-                            <span className="card-price"> $1300</span>
+                              Desde:
+                            <span className="card-price"> 50.000COP /Hora</span>
                           </div>
                         </div>
                       </a>
@@ -126,11 +126,11 @@ export default function BookingPage (){
                           <img src="https://source.unsplash.com/featured/1200x900/?hotel,design" alt="Hotel"/>
                         </div>
                         <div className="card-info">
-                            <div className="card-text big cardText-js">Paloma Hotel & Spa</div>
-                            <div className="card-text small">Stockton Street</div>
+                            <div className="card-text big cardText-js">Angel Hurtado</div>
+                            <div className="card-text small">Santander- Piedecuesta</div>
                           <div className="card-text small">
-                            Starts from: 
-                            <span className="card-price"> $700</span>
+                            Desde 
+                            <span className="card-price"> 45.000COP /hora</span>
                           </div>
                         </div>
                       </a>
@@ -141,11 +141,11 @@ export default function BookingPage (){
                           <img src="https://source.unsplash.com/featured/1200x900/?interior,design" alt="Hotel"/>
                         </div>
                         <div className="card-info">
-                          <div className="card-text big cardText-js">The Golden Hours Hotel</div>
-                            <div className="card-text small">Stockton Street</div>
+                          <div className="card-text big cardText-js">Camilo Guzman</div>
+                            <div className="card-text small">Amazonas</div>
                               <div className="card-text small">
-                                Starts from: 
-                                <span className="card-price"> $700</span>
+                                Desde: 
+                                <span className="card-price"> 40.000 COP/Hora</span>
                               </div>
                         </div>
                       </a>
@@ -156,11 +156,11 @@ export default function BookingPage (){
                           <img src="https://source.unsplash.com/featured/1200x900/?interior,architecture" alt="Hotel"/>
                         </div>
                         <div className="card-info">
-                          <div className="card-text big cardText-js">The Daydream Hotel & Spa</div>
-                          <div className="card-text small">Stockton Street</div>
+                          <div className="card-text big cardText-js">Estefania Valderrama</div>
+                          <div className="card-text small">Medellin</div>
                           <div className="card-text small">
-                            Starts from: 
-                            <span className="card-price"> $1250</span>
+                            Desde: 
+                            <span className="card-price"> 60.000 /Hora</span>
                           </div>
                         </div>
                       </a>
@@ -171,11 +171,11 @@ export default function BookingPage (){
                           <img src="https://source.unsplash.com/featured/1200x900/?interior,modern" alt="Hotel"/>
                         </div>
                         <div className="card-info">
-                          <div className="card-text big cardText-js">The Harmony Hotel</div>
-                            <div className="card-text small">Stockton Street</div>
+                          <div className="card-text big cardText-js">Camilo Romero</div>
+                            <div className="card-text small">Cali</div>
                               <div className="card-text small">
-                                Starts from: 
-                                <span className="card-price"> $500</span>
+                                Desde: 
+                                <span className="card-price"> 70.000/ Hora</span>
                               </div>
                         </div>
                       </a>
@@ -186,11 +186,11 @@ export default function BookingPage (){
                         <img src="https://source.unsplash.com/featured/1200x900/?architecture,modern" alt="Hotel"/>
                         </div>
                         <div className="card-info">
-                          <div className="card-text big cardText-js">The Hotel Star Pasific</div>
-                          <div className="card-text small">Stockton Street</div>
+                          <div className="card-text big cardText-js">Santiago Posada</div>
+                          <div className="card-text small">Bogota- Suba</div>
                           <div className="card-text small">
-                            Starts from: 
-                            <span className="card-price"> $1400</span>
+                            Desde: 
+                            <span className="card-price"> 65.000/ Hora</span>
                           </div>
                         </div>
                       </a>
@@ -201,11 +201,11 @@ export default function BookingPage (){
                           <img src="https://source.unsplash.com/featured/1200x900/?hotel,modern" alt="Hotel"/>
                         </div>
                         <div className="card-info">
-                          <div className="card-text big cardText-js">Hotel Roller Coaster </div>
-                          <div className="card-text small">Stockton Street</div>
+                          <div className="card-text big cardText-js">Juan Perez </div>
+                          <div className="card-text small">Bucaramanga</div>
                           <div className="card-text small">
-                            Starts from: 
-                            <span className="card-price"> $1800</span>
+                            Desde: 
+                            <span className="card-price"> 50.000/ Hora</span>
                           </div>
                         </div>
                       </a>
@@ -222,11 +222,11 @@ export default function BookingPage (){
                             <img src="https://source.unsplash.com/featured/1200x900/?hotel-room,interior"/>
                           </div>
                           <div className="card-info">
-                            <div className="card-text big cardText-js">Hotel Conrad</div>
-                            <div className="card-text small">Stockton Street</div>
+                            <div className="card-text big cardText-js">Felipe Sabogal</div>
+                            <div className="card-text small">Villavicencio</div>
                             <div className="card-text small">
-                              Starts from: 
-                              <span  className="card-price"> $1000</span>
+                              Desde: 
+                              <span  className="card-price"> 65.000/ Hora</span>
                             </div>
                           </div>
                         </a>

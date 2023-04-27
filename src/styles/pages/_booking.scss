@@ -509,7 +509,6 @@ section.app-actions {
   background: var(--app-bg);
   border-radius: 20px;
   position: relative;
-  display: flex;
   padding: 32px;
 }
 
@@ -892,6 +891,7 @@ section.app-actions {
   }
   
   #modal-window {
+    display:none;
     padding: 0;
   }
   
