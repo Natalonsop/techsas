@@ -1,6 +1,13 @@
 import React from "react";
 import Chica1 from "@images/1.jpg";
 import Chico4 from "@images/4.jpg";
+import Chica6 from "@images/6.jpg";
+import Chico3 from "@images/3.jpg";
+import Chico8 from "@images/Chico8.png";
+import Chica2 from "@images/2.jpg";
+import Chico9 from "@images/9.jpg";
+import Chico10 from "@images/10.jpg";
+import Chico11 from "@images/11.jpg";
 
 import '@styles/pages/_booking.scss';
 
@@ -110,7 +117,7 @@ export default function BookingPage (){
                     <div className="card-wrapper main-card">
                       <a className="card cardItemjs"  onClick={openModal}>
                         <div className="card-image-wrapper">
-                          <img src="https://source.unsplash.com/featured/1200x900/?hotel-room,hotel" alt="Hotel"/>
+                          <img src={Chica6} alt="Hotel"/>
                         </div>
                         <div className="card-info">
                           <div className="card-text big cardText-js"> Helena Martinez</div>
@@ -125,7 +132,7 @@ export default function BookingPage (){
                     <div className="card-wrapper main-card">
                       <a className="card cardItemjs"  onClick={openModal}>
                         <div className="card-image-wrapper">
-                          <img src="https://source.unsplash.com/featured/1200x900/?hotel,design" alt="Hotel"/>
+                          <img src={Chico3} alt="Hotel"/>
                         </div>
                         <div className="card-info">
                             <div className="card-text big cardText-js">Angel Hurtado</div>
@@ -140,7 +147,7 @@ export default function BookingPage (){
                     <div className="card-wrapper main-card">
                       <a className="card cardItemjs"  onClick={openModal}>
                         <div className="card-image-wrapper">
-                          <img src="https://source.unsplash.com/featured/1200x900/?interior,design" alt="Hotel"/>
+                          <img src={Chico8} alt="Hotel"/>
                         </div>
                         <div className="card-info">
                           <div className="card-text big cardText-js">Camilo Guzman</div>
@@ -155,7 +162,7 @@ export default function BookingPage (){
                     <div className="card-wrapper main-card">
                       <a className="card cardItemjs"  onClick={openModal}>
                         <div className="card-image-wrapper">
-                          <img src="https://source.unsplash.com/featured/1200x900/?interior,architecture" alt="Hotel"/>
+                          <img src= {Chica2} alt="Hotel"/>
                         </div>
                         <div className="card-info">
                           <div className="card-text big cardText-js">Estefania Valderrama</div>
@@ -170,7 +177,7 @@ export default function BookingPage (){
                     <div className="card-wrapper main-card">
                       <a className="card cardItemjs"  onClick={openModal}>
                         <div className="card-image-wrapper">
-                          <img src="https://source.unsplash.com/featured/1200x900/?interior,modern" alt="Hotel"/>
+                          <img src={Chico9} alt="Hotel"/>
                         </div>
                         <div className="card-info">
                           <div className="card-text big cardText-js">Camilo Romero</div>
@@ -185,7 +192,7 @@ export default function BookingPage (){
                     <div className="card-wrapper main-card">
                       <a className="card cardItemjs" onClick={openModal}>
                         <div className="card-image-wrapper">
-                        <img src="https://source.unsplash.com/featured/1200x900/?architecture,modern" alt="Hotel"/>
+                        <img src= {Chico10} alt="Hotel"/>
                         </div>
                         <div className="card-info">
                           <div className="card-text big cardText-js">Santiago Posada</div>
@@ -200,7 +207,7 @@ export default function BookingPage (){
                     <div className="card-wrapper main-card">
                       <a className="card cardItemjs"  onClick={openModal}>
                         <div className="card-image-wrapper">
-                          <img src="https://source.unsplash.com/featured/1200x900/?hotel,modern" alt="Hotel"/>
+                          <img src={Chico11} alt="Hotel"/>
                         </div>
                         <div className="card-info">
                           <div className="card-text big cardText-js">Juan Perez </div>
