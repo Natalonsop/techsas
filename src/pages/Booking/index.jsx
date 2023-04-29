@@ -1,4 +1,6 @@
 import React from "react";
+import Chica1 from "@images/1.jpg";
+import Chico4 from "@images/4.jpg";
 
 import '@styles/pages/_booking.scss';
 
@@ -78,7 +80,7 @@ export default function BookingPage (){
                     <div className="card-wrapper main-card">
                       <a className="card cardItemjs" onClick={openModal} >
                         <div className="card-image-wrapper">
-                          <img src="https://source.unsplash.com/featured/1200x900/?sculpture,hotel" alt="Hotel"/>
+                          <img src={Chica1} alt="Hotel"/>
                         </div>
                         <div className="card-info">
                           <div className="card-text big cardText-js">Daniela Salgado</div>
@@ -93,7 +95,7 @@ export default function BookingPage (){
                     <div className="card-wrapper main-card">
                       <a className="card cardItemjs"  onClick={openModal}>
                         <div className="card-image-wrapper">
-                          <img src="https://source.unsplash.com/featured/1200x900/?architecture,hotel" alt="Hotel"/>
+                          <img src={Chico4} alt="Hotel"/>
                         </div>
                           <div className="card-info">
                             <div className="card-text big cardText-js">Sergio Rodriguez</div>
@@ -237,11 +239,11 @@ export default function BookingPage (){
                           <img src="https://source.unsplash.com/featured/1200x900/?interior,hotel"/>
                         </div>
                         <div className="card-info">
-                          <div className="card-text big cardText-js">The Hotel Riviera</div>
-                          <div className="card-text small">Stockton Street</div>
+                          <div className="card-text big cardText-js">Camila Echeverry</div>
+                          <div className="card-text small">Cali</div>
                           <div className="card-text small">
-                            Starts from: 
-                            <span  className="card-price"> $300</span>
+                            Desde:
+                            <span  className="card-price"> 45.000 Cop/ Hora</span>
                           </div>
                         </div>
                       </a>
@@ -252,11 +254,11 @@ export default function BookingPage (){
                           <img src="https://source.unsplash.com/featured/1200x900/?architecture,modern"/>
                         </div>
                         <div className="card-info">
-                          <div className="card-text big cardText-js">The Hotel Star Pasific</div>
-                          <div className="card-text small">Stockton Street</div>
+                          <div className="card-text big cardText-js">Sara Ovalle</div>
+                          <div className="card-text small">Cali</div>
                           <div className="card-text small">
-                            Starts from: 
-                            <span className="card-price"> $1400</span>
+                          Desde:
+                            <span className="card-price"> 45.000 Cop/ Hora</span>
                           </div>
                         </div>
                       </a>
@@ -267,11 +269,11 @@ export default function BookingPage (){
                           <img src="https://source.unsplash.com/featured/1200x900/?hotel,modern"/>
                         </div>
                         <div className="card-info">
-                          <div className="card-text big cardText-js">Hotel Instant Destiny </div>
-                          <div className="card-text small">Stockton Street</div>
+                          <div className="card-text big cardText-js">Cristian Perez</div>
+                          <div className="card-text small">Monteria</div>
                           <div className="card-text small">
                             Starts from: 
-                            <span className="card-price"> $1800</span>
+                            <span className="card-price"> 45.000 Cop/ Hora</span>
                           </div>
                         </div>
                       </a>
@@ -282,11 +284,11 @@ export default function BookingPage (){
                         <img src="https://source.unsplash.com/featured/1200x900/?architecture,modern" alt="Hotel"/>
                         </div>
                           <div className="card-info">
-                            <div className="card-text big cardText-js">The White Roses Hotel</div>
-                            <div className="card-text small">Stockton Street</div>
+                            <div className="card-text big cardText-js">Alejandro Paredes</div>
+                            <div className="card-text small">Bucaramanga</div>
                             <div className="card-text small">
                               Starts from: 
-                              <span className="card-price"> $700</span>
+                              <span className="card-price"> 50.000 Cop/ Hora</span>
                           </div>
                         </div>
                       </a>
@@ -297,11 +299,11 @@ export default function BookingPage (){
                           <img src="https://source.unsplash.com/featured/1200x900/?hotel,modern" alt="Hotel"/>
                         </div>
                         <div className="card-info">
-                          <div className="card-text big cardText-js">Hotel Tom's Dinner</div>
-                          <div className="card-text small">Stockton Street</div>
+                          <div className="card-text big cardText-js">Valentina Charry</div>
+                          <div className="card-text small">Medellin</div>
                           <div className="card-text small">
                             Starts from: 
-                            <span className="card-price"> $1500</span>
+                            <span className="card-price"> 45.000 Cop/ Hora</span>
                           </div>
                         </div>
                       </a>
